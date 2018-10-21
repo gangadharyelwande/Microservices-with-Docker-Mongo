@@ -12,4 +12,9 @@ spring:
       server:
         git:
           #uri: file:///Users/gyelwand/Documents/spring-microservice-with-docker/git-localconfig-local
-          uri: https://github.com/gangadharyelwande/spring-microservice-with-docker
+          uri: https://github.com/gangadharyelwande/Microservices-with-Docker-Mongo.git
+          skipSslValidation: true
+          username: gangadharyelwande
+          password: October2018$
+          
+          #https://github.com/gangadharyelwande/Microservices-with-Docker-Mongo/tree/master/git-localconfig-local

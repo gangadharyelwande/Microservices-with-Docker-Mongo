@@ -2,11 +2,10 @@ spring:
   application:
     name: limits-service
     
-limits-service:
-  minimum: 99
-  maximum: 9999
-  
-
+  cloud:
+    config:
+      uri: http://localhost:8888
+    
   profiles:
     active: qa
 
